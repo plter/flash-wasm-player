@@ -1133,7 +1133,7 @@ impl ExternalInterfaceProvider for JavascriptInterface {
             available:true,
             window:window.idx
         };
-        // TODO need construct JsValue from idx, but it's private, maybe problems exists, may be i should Give up !!!
+        // TODO need construct JsValue from idx, but it's private, maybe problems exists, may be it's time to Give up !!!
         result.to_string()
     }
 }
